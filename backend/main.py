@@ -10,7 +10,7 @@ import io, base64, os
 from youtube_api import fetch_videos, fetch_comments
 from sentiment import analyze_sentiment
 
-API_KEY = "AIzaSyA0wOy7T-MEaI6ViKeFbQwcXWY_1qYFZBI"
+API_KEY = ""
 
 app = FastAPI(title="Atomberg Share of Voice API")
 
